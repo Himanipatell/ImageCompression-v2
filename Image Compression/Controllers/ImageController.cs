@@ -16,27 +16,29 @@ namespace Image_Compression.Controllers
         [HttpPost]
         public async Task<IActionResult> ImageCompress([FromBody] ImageModel imageobj)
         {
-            byte[] compressedBytes = null;
+            List<byte[]> compressedBytes = new List<byte[]>();
             var tasks = new List<Task>();
             ImageCompresser imageCompresser = new ImageCompresser();
 
-            foreach (string path in imageobj.images)
+         /*   foreach (string image in imageobj.images)
             {
                // byte[] compressedBytes = null;
                 Task t = Task.Run(() =>
                     {
-                        compressedBytes = imageCompresser.compress(path).Result;
+                        compressedBytes = imageCompresser.compress(image,false).Result;
                     });
                 tasks.Add(t);
-            }
+            }*/
 
-           /* byte[] fileBytes = System.Convert.FromBase64String(imageobj.imageByteArray);
-
-            Task task = Task.Run(() =>
+           
+            foreach (string image in imageobj.imageByteArray)
             {
-                compressedBytes = imageCompresser.compress(fileBytes, imageobj.watermarkpath).Result;
+                Task task = Task.Run(() =>
+            {
+                compressedBytes = imageCompresser.compress(image,true).Result;
             });
-            tasks.Add(task);*/
+                tasks.Add(task);
+            }
             Task.WaitAll(tasks.ToArray());
             //return Ok("images compressed"); ;
             return Ok(new { compressedBytes = compressedBytes }); ;
@@ -113,12 +115,11 @@ namespace Image_Compression.Controllers
             var tasks = new List<Task>();
             ImageCompresser imageCompresser = new ImageCompresser();
 
-            foreach (string path in imageobj.images)
+            foreach (string image in imageobj.images)
             {
-                // byte[] compressedBytes = null;
                 Task t = Task.Run(() =>
                 {
-                    compressedBytes = imageCompresser.compressWithTextWatermark(path,imageobj.widthFraction,imageobj.heightFraction,imageobj.watermarkText).Result;
+                    compressedBytes = imageCompresser.compressWithTextWatermark(image,imageobj.widthFraction,imageobj.heightFraction,imageobj.watermarkText).Result;
                 });
                 tasks.Add(t);
             }

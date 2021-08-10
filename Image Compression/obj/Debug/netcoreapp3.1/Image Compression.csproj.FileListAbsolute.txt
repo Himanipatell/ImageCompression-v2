@@ -45,3 +45,50 @@ C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression-v2\Image Compres
 C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression-v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.dll
 C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression-v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.pdb
 C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression-v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.genruntimeconfig.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.exe
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.deps.json
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.runtimeconfig.json
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.runtimeconfig.dev.json
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Image Compression.pdb
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\GroupDocs.Watermark.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Magick.NET-Q16-AnyCPU.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Magick.NET.Core.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\NetVips.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\SkiaSharp.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\Magick.Native-Q16-x64.dll.so
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\Magick.Native-Q16-x64.dll.so
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\Magick.Native-Q16-x64.dll.dylib
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Magick.Native-Q16-x64.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Magick.Native-Q16-x86.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netstandard2.0\NetVips.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netstandard2.0\NetVips.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libglib-2.0-0.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libgobject-2.0-0.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libvips-42.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\tizen-x86\native\libSkiaSharp.so
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.csproj.AssemblyReference.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.AssemblyInfoInputs.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.AssemblyInfo.cs
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.csproj.CoreCompileInputs.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\staticwebassets\Image Compression.StaticWebAssets.Manifest.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\staticwebassets\Image Compression.StaticWebAssets.xml
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\scopedcss\bundle\Image Compression.styles.css
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.RazorTargetAssemblyInfo.cache
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.csproj.CopyComplete
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.dll
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.pdb
+C:\Users\HIMANI\Desktop\Perspectify Internship\ImageCompression_v2\Image Compression\obj\Debug\netcoreapp3.1\Image Compression.genruntimeconfig.cache

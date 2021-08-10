@@ -8,7 +8,7 @@ namespace Image_Compression.Models
     public class ImageModel
     {
         public List<string> images { get; set; }
-        public string imageByteArray { get; set; }
+        public List<string> imageByteArray { get; set; }
         public string watermarkpath { get; set; }
         public float widthFraction { get; set; }
         public float heightFraction { get; set; }

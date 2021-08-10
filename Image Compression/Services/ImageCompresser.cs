@@ -8,26 +8,39 @@ using ImageMagick;
 using NetVips;
 using static NetVips.Enums;
 using Image_Compression.Models;
+using System.Collections.Generic;
+
 namespace Image_Compression.Services
 {
     public class ImageCompresser
     {
-        public async Task<byte[]> compress(string path)
+        static int count= 1;
+        public async Task<List<byte[]>> compress(string path,bool isByte)
         {
+           
             byte[] originalBytes = null;
-            byte[] compressedBytes = null;
-            bool f = false;
+            List<byte[]> compressedBytes = new List<byte[]>();
+            
             try
             {
-                string fileName = Path.GetFileName(path);
-                using var image = NetVips.Image.NewFromFile(path);
-                using (WebClient webClient = new WebClient())
+                if (isByte == false)
                 {
-                    originalBytes = webClient.DownloadData(path);
+                    string fileName = Path.GetFileName(path);
+                    using var image = NetVips.Image.NewFromFile(path);
+                    using (WebClient webClient = new WebClient())
+                    {
+                        originalBytes = webClient.DownloadData(path);
+                    }
                 }
-                NetVips.Image img = ByteToImg(originalBytes);               
-                compressedBytes = img.TiffsaveBuffer(ForeignTiffCompression.Jpeg);
-                img.Tiffsave("C:\\Users\\HIMANI\\Pictures\\Compress Image\\Compress\\"+"_compressonly_" + fileName, ForeignTiffCompression.Jpeg);
+                else
+                {
+                    originalBytes = System.Convert.FromBase64String(path);
+                }
+                NetVips.Image img = ByteToImg(originalBytes);
+                
+                compressedBytes.Add(img.TiffsaveBuffer(ForeignTiffCompression.Jpeg));
+                img.Tiffsave("C:\\Users\\HIMANI\\Pictures\\Compress Image\\Compress\\"+"_compressonly_"+count+".jpg" , ForeignTiffCompression.Jpeg);
+                count++;
             }
             catch (Exception e)
             {
@@ -134,7 +147,9 @@ namespace Image_Compression.Services
             {
                 using (var watermark = new MagickImage(watermarkpath))
                 {
-                    magicimage.Composite(watermark, img.Width-350,img.Height-300, CompositeOperator.Over);
+                    int width = (int)(img.Width * 0.8);
+                    int height = (int)(img.Height * 0.8);
+                    magicimage.Composite(watermark, width,height , CompositeOperator.Over);
                 }
                 magicimage.Write(writePath);
                 output = magicimage.ToByteArray();
@@ -152,7 +167,9 @@ namespace Image_Compression.Services
             StringFormat stringformat1 = new StringFormat();
             stringformat1.Alignment = StringAlignment.Far;
             Color StringColor1 = ColorTranslator.FromHtml("#FFFFFF");
-            graphicsImage.DrawString(watermarkText, new Font("arail", 40, FontStyle.Regular), new SolidBrush(StringColor1), new Point(img.Width - 100, img.Height - 400), stringformat1);
+            int width = (int)(img.Width * 0.95);
+            int height = (int)(img.Height * 0.95);
+            graphicsImage.DrawString(watermarkText, new Font("arail", 40, FontStyle.Regular), new SolidBrush(StringColor1), new Point(width, height), stringformat1);
             // bitmap.Save(writePath);
             using (var ms = new MemoryStream())
             {

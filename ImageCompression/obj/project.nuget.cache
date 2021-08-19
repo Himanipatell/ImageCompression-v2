@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "I6yxzMgNQ/wWPPRZuNIwDXGeqLanDm4AKjmAFBKd8rg21XAhJH2pdmRxnZ7V3yn19CpHd6f3h4+5rd6aAdVkGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HIMANI\\Desktop\\Perspectify Internship\\ImageCompression_v2\\Image Compression\\Image Compression.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HIMANI\\.nuget\\packages\\groupdocs.watermark\\21.3.0\\groupdocs.watermark.21.3.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\magick.net-q16-anycpu\\8.1.0\\magick.net-q16-anycpu.8.1.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\magick.net.core\\8.1.0\\magick.net.core.8.1.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0-preview.6.21352.12\\microsoft.win32.systemevents.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\netvips\\2.0.1\\netvips.2.0.1.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\netvips.native.win-x64\\8.11.0\\netvips.native.win-x64.8.11.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\system.drawing.common\\6.0.0-preview.6.21352.12\\system.drawing.common.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\HIMANI\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
